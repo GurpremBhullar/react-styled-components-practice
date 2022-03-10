@@ -23,7 +23,7 @@ export default function Header () {
                             Enjoy the Content
                         </Button>
                     </div>
-                    <Image src='./images/cha.jpg' alt='' />
+                    <Image src='./images/baby.jpg' alt='' />
                 </Flex>
             </Container>
         </StyledHeader>

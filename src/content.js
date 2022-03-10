@@ -9,7 +9,7 @@ const content = [
       id: 2,
       title: 'Vibrant Culture',
       body: "Sit back and enjoy content filled with joy",
-      image: 'henna.jpg',
+      image: 'festive.jpg',
     },
     {
       id: 3,
