@@ -1,4 +1,5 @@
 import Header from './components/Header.js';
+import Footer from './components/Footer.js';
 import Card from './components/Card.js';
 import { Container } from './components/styles/Container.styled';
 import { ThemeProvider } from 'styled-components';
@@ -7,9 +8,9 @@ import content from './content.js';
 
 const theme = {
   colors: {
-    header: 'white',
-    body: 'lightblue',
-    footer: '#003333',
+    header: '#D41E00',
+    body: '#010100',
+    footer: '#D41E00',
   },
   mobile:'768px',
 };
@@ -25,6 +26,7 @@ function App() {
             <Card key={index} item={item} />
           ))}
         </Container>
+        <Footer />
       </>
     </ThemeProvider>
   );
